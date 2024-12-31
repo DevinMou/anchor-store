@@ -1,2 +1,2 @@
 # anchor-store
-anchor-store is a JavaScript state management solution for multi-instance applications. It allows managing and sharing state across instances and threads (e.g., Web Workers) with a simple API, inspired by Vue’s Pinia store.
+`anchor-store` is a lightweight state management solution designed for JavaScript applications that require managing state across multiple instances, modules, and even threads (like Web Workers). It enables a Vue-like store functionality in multi-instance environments, with an easy-to-use API for creating stores and managing state.
