@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anchor-Store</title>
+    <style>
+      body {
+        flex-direction: column;
+      }
+      .player {
+        width: 80vw;
+        max-width: 500px;
+      }
+      .player>* {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module">
+      import { Test } from './index'
+      window.test = new Test()
+    </script>
+  </body>
+</html>
